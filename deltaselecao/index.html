@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e346bf6d8a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="content">
+    <header>
+        <nav>
+            <ul id="navbar-items" >
+                <li>Logo</li>
+                <li><i onclick="showMenu()" id="menu" class="fas fa-bars"></i></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="image-top" >
+            <h1>Lorem ipsum dolor sit<br>amet, consetetur</h1>
+            <div id="retangulo"></div>
+        </section>
+        <section id="yellow"></section>
+        <section id="carousel">
+            <div id="text">
+                <img id="icon" src="img/truck.svg" alt="Ícone do caminhão">
+                <h1 id="title" >Carousel 1</h1>
+                <p id="inner-text" >Lorem ipsum dolor sit amet, consetetur sadipscing elitr<br>
+                    , sed diam nonumy eirmod tempor invidunt ut labore et<br>
+                     dolore magna aliquyam erat, sed diam voluptua. At vero<br>
+                      eos et accusam et justo duo</p>
+                <div id="positions">
+                    <div class="position" id="one"></div>
+                    <div class="position" id="two"></div>
+                    <div class="position" id="three"></div>
+                </div>
+            </div>
+            <img src="img/Retângulo 174.png" alt="" id="main-photo">
+            <div id="buttons">
+                <button class="btn left" id="left" ><img src="img/left-and-right-arrows.svg" alt=""></button>
+                <button class="btn right" id="right" ><img src="img/left-and-right-arrows (1).svg" alt=""></button>
+            </div>
+        </section>
+    </main>
+</div>
+    <div id="show-menu">
+        <i onclick="closeMenu()" class="fas fa-times"></i>
+        <ul id="menu-list" >
+            <li>Menu 1</li>
+            <li>Menu 2</li>
+            <li>Menu 3</li>
+            <li>Menu 4</li>
+        </ul>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
